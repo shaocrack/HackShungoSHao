@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Hurricane', cursive;
+}
+
+.final {
+    background: linear-gradient(to right, black, white);
+}
+
+.contenedor {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.bg_animate {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to left, rgb(16, 115, 197), rgb(0, 247, 255));
+}
+
+.header_nav {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.header_nav .contenedor {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.header_nav h1 {
+    color: rgb(248, 247, 247);
+    text-align: center;
+    font-size: 50px;
+    filter: drop-shadow(0 15px 5px rgba(53, 22, 22, 0.7));
+}
+
+.header_nav nav a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin-right: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.banner_title {
+    color: crimson;
+    font-size: 45px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.banner_title .Ingresar {
+    color: rgb(24, 23, 23);
+    font-size: 35px;
+    text-decoration: none;
+    display: inline-block;
+    background: rgba(234, 238, 16, 0.932);
+    border-radius: 25px;
+    text-align: center;
+    padding: 15px 45px;
+    margin: 54px 240px;
+    cursor: pointer;
+    filter: drop-shadow(0 25px 5px rgba(0, 0, 0, 0.7));
+}
+
+.banner_img img {
+    width: 350px;
+    display: block;
+    margin: 10px 0 0 5px;
+    filter: drop-shadow(0 25px 5px rgba(0, 0, 0, 0.7));
+    border-radius: 25px;
+}
